@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imgfactura {
+    width: 1172px;
+    height: 1656px;
+    background-image: url(IMG/6666795.png);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.arriba{
+    width: 1172px;
+    position: absolute;
+}
+
+.logo{
+    width: 120px;
+    position: absolute; 
+    left: 80px;
+    top: 40px;
+}
+
+.yl{
+    position: absolute;
+    color: white;
+    left: 200px;
+    top: 40px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800;    
+}
+
+.titulo{
+    color: #003e5f;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    font-weight: 700;
+    font-size: 100px;
+}
+.contfyh{
+    background-color: #9bdcf2;
+    width: 540px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    height: 56px;
+    position: absolute;        
+    right: 0;
+    top: 285px;
+}
+.idyfecha{
+    position: absolute;
+    top: 268px;
+    right: 70px;
+    font-size: 26px;
+    display: flex;
+    gap: 40px;
+}
+.id{
+    color: #4D4A48;
+
+}
+.fecha{
+    color: #4C4A49;
+    position: relative;
+    left: 10px;
+}
+.fecha span{
+    position: relative;
+    left: 20px;
+}
+
+.infoc{
+    color: #4C4A4B;
+    position: absolute;
+    top: 365px;
+    left: 105px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    line-height: 15px;
+}
+
+.circ1{
+    position: absolute;
+    top: 365px;
+    width: 72px;
+}
+.circ2{
+    position: absolute;              
+    transform: rotate(180deg);
+    right: 0;
+    bottom: 380px;
+    width: 72px;
+}
+
+.htabla{
+    background-color: #003E5F;
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    top: 580px;
+    left: 5%;
+    border-radius: 40px;
+}
+
+.tabla{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    font-size: 20px;
+}
+.tabla thead{
+    color: white;
+    line-height: 100px;
+}
+.tabla tbody{
+    position: relative;
+    left: 30px;
+    line-height: 100px;
+}
+.t1{
+    position: relative;
+    top: 770px;
+    width: 80%;
+}
+.t2{
+    position: relative;
+    top: 860px;
+    width: 80%;
+}
+.t3{
+    position: relative;
+    top: 950px;
+    width: 80%;
+}
+.t4{
+    position: relative;
+    top: 1040px;
+    width: 80%;
+}
+.t5{
+    position: relative;
+    top: 1119px;
+    width: 80%;
+}
+
+.terminos{
+    position: absolute;
+    bottom: 330px;
+    left: 120px;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+}
+.terminos p{
+    margin: 10px;
+}
+.total{
+    width: 250px;
+    position: absolute;
+    right: 125px;
+    bottom: 290px;
+}
+.total p span{
+    position: absolute;
+    right: 0;
+}
+
+.firma{
+    position: absolute;
+    bottom: 120px;
+    left: 140px;
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.footer{
+    position: absolute;
+    right: 130px;
+    bottom: 80px;
+    color: white;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.abajo{
+    width: 1172px;
+    position: absolute;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+.correo{
+    position: absolute;
+    right: 4px;
+    margin: 0;
+}
